@@ -1,0 +1,66 @@
+
+body{
+  background-color: orange;
+}
+  
+.carrusel {
+    background-color: brown;
+    width: 60%;
+    height: auto;
+    margin-top: 8rem;
+    margin: 8rem auto auto auto;
+  }
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 660px;
+}
+
+.carousel-inner{
+ height: 520px;
+}
+
+.mapa {
+    overflow:hidden;
+    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position:relative;
+    height:0;
+}
+.mapaiframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.whatsapp{
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  color: green;
+  transform: translate(-50%, -50%);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.whatsapp:hover{
+  transform: rotate(5deg);
+}
+
+.col{
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.col:hover{
+  transform: scale(0.8, 0.8);
+}
+
+.display-6{
+  font-sizes: 6: 2.5rem;
+  font-weight: 300;
+  font-family:sans-serif;
+}
